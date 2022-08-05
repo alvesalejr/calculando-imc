@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+body{
+    background-image: url(/src/image/calc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color: #D4D4D2;
+}h1{
+    margin-block-start: 0em; 
+    color: white;
+}
+.input_area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    height: 1.5em;
+}
+label{
+    width: 100%;
+    margin-top: 2em;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+.text{
+   text-align: center;
+   font-size: 1.5em;
+   font-family: 'Barlow', sans-serif;
+}
+.container{
+    background-color: #141316;
+    display: inline-flex;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    flex-direction: column;
+    align-items: center;
+    width: 25em;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+button{
+    height: 3em;
+    width: 100%;
+    background-color: #0938e4;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: #f6c177;
+}
+
+.rodape{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
